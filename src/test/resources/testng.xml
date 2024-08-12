@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Regression LandingPage">
+    <test name="Probar cualquier cosa">
+        <classes>
+            <class name="Tests.LandingPageTests">
+                <methods>
+                   <include name="hideAndShowtest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
